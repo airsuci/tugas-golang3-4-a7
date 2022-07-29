@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: "Lucida Grande";
@@ -108,7 +109,7 @@ header {
 }
 
 .lesson-wrapper {
-    height: 500px;
+    height: 900px;
     padding-bottom: 80px;
     background-color: #f7f7f7;
     text-align: center;
@@ -131,6 +132,11 @@ header {
 
 .lesson-icon {
     position: relative;
+
+}
+.lesson.image {
+    width: 50%;
+    height: 50%;
 }
 
 .lesson-icon p {
@@ -160,9 +166,9 @@ header {
 
 .message {
     padding: 15px 40px;
-    background-color: #5dca88;
+    background-color: #ca5d5d;
     cursor: pointer;
-    box-shadow: 0 7px #1a7940;
+    box-shadow: 0 7px #d30f0f;
 }
 
 .message:active {
