@@ -1,5 +1,4 @@
 
-
 body {
     margin: 0;
     font-family: "Lucida Grande";
@@ -187,7 +186,59 @@ footer p {
     font-size: 12px;
 }
 
-footer {
-    padding-top: 30px;
+.footer {
+    display: table;
+    width: 100%;
+    padding: 10px;
 }
 
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    border-top: 3px solid #292929;
+    /*display: grid;
+    align-items: center;
+    border-top: 2px solid #006100;*/
+}
+
+footer .copyright {
+    text-align: center;
+    border-bottom: 1px solid #666;
+    background-color: #292929;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .2);
+    color: rgba(255, 255, 255, .25);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+
+}
+
+footer a {
+    color: #fff;
+    padding: 0 10px;
+}
+
+footer a:hover {
+    color: rgba(255, 255, 255, 0.4);
+    text-shadow: 1px 1px rgba(0, 0, 0, .6);
+    transition: color 1s ease;
+}
+
+.logo-footer,
+ul {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+ul li {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
