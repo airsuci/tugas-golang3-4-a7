@@ -1,244 +1,293 @@
-
 body {
-    margin: 0;
-    font-family: "Lucida Grande";
+  margin: 0;
+  font-family: "Lucida Grande";
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url(https://www.hondacengkareng.com/wp-content/uploads/2022/02/honda-vario-160-brand-new-perfection.jpg);
-    background-size: cover;
-    color: white;
-    text-align: center;
+  padding: 180px 0 100px 0;
+  background-image: url(https://www.hondacengkareng.com/wp-content/uploads/2022/02/honda-vario-160-brand-new-perfection.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
 }
 
 .top-wrapper h1 {
-    opacity: 0.7;
-    font-size: 45px;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
 }
 
 .top-wrapper p {
-    opacity: 0.7;
-    margin-bottom: 3px;
+  opacity: 0.7;
+  margin-bottom: 3px;
 }
 
 .btn-wrapper {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .btn-wrapper p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .signup {
-    background-color: #239b76;
+  background-color: #239b76;
 }
 
 .facebook {
-    background-color: #3b5998;
-    margin-right: 10px;
+  background-color: #3b5998;
+  margin-right: 10px;
 }
 
 .twitter {
-    background-color: #55acee;
+  background-color: #55acee;
 }
 
 .btn {
-    padding: 12px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
 }
 
 .btn:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .fa {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 header {
-    height: 65px;
-    width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
-    /* Ubah position ke fixed, dan top ke 0 */
-    position: fixed;
-    top: 0;
-    /* Ubah z-index ke 10 */
-    z-index: 10;
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* Ubah position ke fixed, dan top ke 0 */
+  position: fixed;
+  top: 0;
+  /* Ubah z-index ke 10 */
+  z-index: 10;
 }
 
 .logo {
-    width: 124px;
-    margin-top: 20px;
+  width: 124px;
+  margin-top: 20px;
 }
 
 .header-left {
-    float: left;
+  float: left;
 }
 
 .header-right {
-    float: right;
-    background-color: rgba(255, 255, 255, 0.3);
-    transition: all 0.5s;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
 }
 
 .header-right:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    display: block;
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
 }
 
 .lesson-wrapper {
-    height: 900px;
-    padding-bottom: 80px;
-    background-color: #f7f7f7;
-    text-align: center;
+  height: 900px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
 }
 
 .heading {
-    padding-top: 60px;
-    padding-bottom: 30px;
-    color: #5f5d60;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
 }
 
 .heading h2 {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .lesson {
-    float: left;
-    width: 25%;
+  float: left;
+  width: 25%;
 }
 
 .lesson-icon {
-    position: relative;
-
+  position: relative;
 }
 .lesson.image {
-    width: 50%;
-    height: 50%;
+  width: 50%;
+  height: 50%;
 }
 
 .lesson-icon p {
-    position: absolute;
-    top: 90px;
-    width: 100%;
-    color: white;
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
 }
 
 .txt-contents {
-    width: 80%;
-    display: inline-block;
-    margin-top: 20px;
-    font-size: 15px;
-    color: #b3aeb5;
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
 }
 
 .heading h3 {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .message-wrapper {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 80px;
-    text-align: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
 }
 
 .message {
-    padding: 15px 40px;
-    background-color: #ca5d5d;
-    cursor: pointer;
-    box-shadow: 0 7px #d30f0f;
+  padding: 15px 40px;
+  background-color: #ca5d5d;
+  cursor: pointer;
+  box-shadow: 0 7px #d30f0f;
 }
 
 .message:active {
-    position: relative;
-    top: 7px;
-    box-shadow: none;
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
 footer img {
-    width: 125px;
+  width: 125px;
 }
 
 footer p {
-    color: #b3aeb5;
-    font-size: 12px;
+  color: #b3aeb5;
+  font-size: 12px;
 }
 
 .footer {
-    display: table;
-    width: 100%;
-    padding: 10px;
+  display: table;
+  width: 100%;
+  padding: 10px;
 }
 
 footer {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #333;
-    border-top: 3px solid #292929;
-    /*display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+  border-top: 3px solid #292929;
+  /*display: grid;
     align-items: center;
     border-top: 2px solid #006100;*/
 }
 
 footer .copyright {
-    text-align: center;
-    border-bottom: 1px solid #666;
-    background-color: #292929;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, .2);
-    color: rgba(255, 255, 255, .25);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
-
+  text-align: center;
+  border-bottom: 1px solid #666;
+  background-color: #292929;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.25);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 footer a {
-    color: #fff;
-    padding: 0 10px;
+  color: #fff;
+  padding: 0 10px;
 }
 
 footer a:hover {
-    color: rgba(255, 255, 255, 0.4);
-    text-shadow: 1px 1px rgba(0, 0, 0, .6);
-    transition: color 1s ease;
+  color: rgba(255, 255, 255, 0.4);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+  transition: color 1s ease;
 }
 
 .logo-footer,
 ul {
-    display: table-cell;
-    vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 footer ul {
-    list-style: none;
-    display: flex;
-    justify-content: right;
+  list-style: none;
+  display: flex;
+  justify-content: right;
 }
 
 ul li {
-    float: left;
+  float: left;
 }
 
 .clear {
-    clear: both;
+  clear: both;
+}
+
+/* Diskon Hari Ini */
+.offer {
+  text-align: center;
+  background-color: #44403c;
+  color: white;
+  padding: 24px 12px;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: -30px;
+}
+
+.subtitle {
+  font-size: 28px;
+}
+
+.paragraph {
+  font-size: 16px;
+}
+
+.text-heading {
+  font-size: 24px;
+}
+
+.box {
+  color: #cbd5e1;
+  background-color: #7f1d1d;
+  width: 50%;
+  margin: auto;
+  border: 2px solid #b91c1c;
+  flex-direction: column;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+.box:hover {
+  color: #f8fafc;
+  background-color: #991b1b;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.text-heading {
+  margin-bottom: 15px;
+}
+
+span {
+  color: #b91c1c;
 }
