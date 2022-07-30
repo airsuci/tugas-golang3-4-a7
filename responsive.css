@@ -9,7 +9,27 @@
   }
 }
 
+@media (max-width: 480px) {
+  .lesson {
+    width: 98%;
+    height: 210px;
+  }
+
+  .lesson-icon img {
+    width: 70%;
+  }
+}
+
 @media (max-width: 670px) {
+  .button {
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
   .title {
     font-size: 18px;
     margin-bottom: -10px;
@@ -21,5 +41,49 @@
 
   .paragraph {
     font-size: 13px;
+  }
+
+  footer ul {
+    flex-direction: column;
+  }
+
+  footer ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: unset;
+    display: unset;
+    flex-direction: unset;
+  }
+
+  footer ul li {
+    float: unset;
+    padding: 5px 0;
+  }
+
+  footer ul li:hover {
+    background-color: #44403c;
+  }
+
+  .logo-footer {
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 670px) {
+  .lesson {
+    width: 98%;
+    height: 300px;
+  }
+}
+
+@media (min-width: 671px) {
+  .lesson {
+    width: 25%;
+    height: 250px;
+    margin-top: -20px;
   }
 }

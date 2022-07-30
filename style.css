@@ -1,6 +1,12 @@
+html,
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -8,16 +14,17 @@ a {
 }
 
 .container {
-  width: 1170px;
+  /*width: 1170px;*/
   padding: 0 15px;
   margin: 0 auto;
 }
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://www.hondacengkareng.com/wp-content/uploads/2022/02/honda-vario-160-brand-new-perfection.jpg);
+  background-image: url(https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-1400,pr-true,f-auto/uploads/product-draft/lifestyle/lifestyle-banner-4-20-09122021-023005.jpg);
   background-size: cover;
-  color: white;
+  color: #dc2626;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -42,7 +49,7 @@ a {
 }
 
 .signup {
-  background-color: #239b76;
+  background-color: #333;
 }
 
 .facebook {
@@ -52,6 +59,22 @@ a {
 
 .twitter {
   background-color: #55acee;
+}
+
+.button {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
 }
 
 .btn {
@@ -73,12 +96,12 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(51, 51, 51, 0.9);
   /* Ubah position ke fixed, dan top ke 0 */
   position: fixed;
   top: 0;
-  /* Ubah z-index ke 10 */
-  z-index: 10;
+  /* Ubah z-index ke 999999 */
+  z-index: 999999;
 }
 
 .logo {
@@ -107,13 +130,6 @@ header {
   display: block;
 }
 
-.lesson-wrapper {
-  height: 900px;
-  padding-bottom: 80px;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
 .heading {
   padding-top: 60px;
   padding-bottom: 30px;
@@ -126,12 +142,13 @@ header {
 
 .lesson {
   float: left;
-  width: 25%;
+  overflow-y: hidden;
 }
 
 .lesson-icon {
   position: relative;
 }
+
 .lesson.image {
   width: 50%;
   height: 50%;
@@ -142,6 +159,64 @@ header {
   top: 90px;
   width: 100%;
   color: white;
+}
+
+.lesson-icon img {
+  width: 80%;
+}
+
+.lesson-wrapper {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.lesson-box {
+  border: 1px solid transparent;
+  position: relative;
+}
+
+.lesson:hover {
+  overflow-y: unset;
+}
+
+.lesson:hover .lesson-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  z-index: 99999;
+}
+
+.lesson-box {
+  padding: 1%;
+  margin: 5px 0;
+}
+
+.lesson .list-product-name,
+.lesson .list-product-price {
+  display: block;
+  color: #000;
+}
+
+.lesson .list-product-price,
+.lesson .message {
+  visibility: hidden;
+}
+
+.lesson .list-product-name {
+  font-size: 140%;
+  font-weight: 550;
+  margin-top: -20px;
+}
+
+.lesson .list-product-price {
+  padding: 8px 0;
+  font-size: 105%;
+  font-weight: 800;
+}
+
+.lesson:hover .message,
+.lesson:hover .list-product-price {
+  visibility: visible;
 }
 
 .txt-contents {
@@ -167,6 +242,7 @@ header {
   background-color: #ca5d5d;
   cursor: pointer;
   box-shadow: 0 7px #d30f0f;
+  margin-bottom: 15px;
 }
 
 .message:active {
@@ -185,8 +261,6 @@ footer p {
 }
 
 .footer {
-  display: table;
-  width: 100%;
   padding: 10px;
 }
 
@@ -194,9 +268,6 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #333;
   border-top: 3px solid #292929;
-  /*display: grid;
-    align-items: center;
-    border-top: 2px solid #006100;*/
 }
 
 footer .copyright {
@@ -220,19 +291,18 @@ footer a:hover {
   transition: color 1s ease;
 }
 
-.logo-footer,
-ul {
-  display: table-cell;
-  vertical-align: middle;
+.logo-footer {
+  float: left;
+  margin-top: 10px;
 }
 
 footer ul {
   list-style: none;
   display: flex;
-  justify-content: right;
+  float: right;
 }
 
-ul li {
+footer ul li {
   float: left;
 }
 
@@ -288,6 +358,6 @@ ul li {
   margin-bottom: 15px;
 }
 
-span {
+.txt-red {
   color: #b91c1c;
 }
