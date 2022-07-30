@@ -21,6 +21,15 @@
 }
 
 @media (max-width: 670px) {
+  .button {
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
   .title {
     font-size: 18px;
     margin-bottom: -10px;
@@ -62,7 +71,20 @@
     text-align: center;
     margin-bottom: 20px;
   }
+
+@media (min-width: 481px) and (max-width: 670px) {
+  .lesson {
+    width: 98%;
+    height: 300px;
+  }
 }
+
+@media (min-width: 671px) {
+  .lesson {
+    width: 25%;
+    height: 250px;
+    margin-top: -20px;
+  }
 
 @media (min-width:481px) and (max-width:670px) {
   .lesson {

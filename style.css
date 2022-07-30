@@ -6,7 +6,7 @@ body {
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -21,9 +21,10 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://www.hondacengkareng.com/wp-content/uploads/2022/02/honda-vario-160-brand-new-perfection.jpg);
+  background-image: url(https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-1400,pr-true,f-auto/uploads/product-draft/lifestyle/lifestyle-banner-4-20-09122021-023005.jpg);
   background-size: cover;
-  color: white;
+  color: #dc2626;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -48,7 +49,7 @@ a {
 }
 
 .signup {
-  background-color: #239b76;
+  background-color: #333;
 }
 
 .facebook {
@@ -58,6 +59,22 @@ a {
 
 .twitter {
   background-color: #55acee;
+}
+
+.button {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
 }
 
 .btn {
@@ -79,7 +96,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(51, 51, 51, 0.9);
   /* Ubah position ke fixed, dan top ke 0 */
   position: fixed;
   top: 0;
